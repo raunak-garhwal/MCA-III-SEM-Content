@@ -1,0 +1,14 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+  entity invertor is
+    port(A: in std_logic;
+         B: out std_logic;
+    end invertor;
+
+architecture BEHAVIORAL of invertor is
+begin 
+   b <= NOT A;
+end BEHAVIORAL;

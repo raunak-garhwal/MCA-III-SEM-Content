@@ -1,0 +1,46 @@
+C:/modeltech64_10.5/examples/invertorbench.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/invertorbench.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity anot_bench
+-- Compiling architecture tb of anot_bench
+
+} {} {}} C:/modeltech64_10.5/examples/invertor.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/INVERTOR.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture andlogic of not_gate
+
+} {} {}} C:/modeltech64_10.5/examples/decorder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/decorder.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture Behavioral of decoder
+
+} {} {}} {C:/modeltech64_10.5/examples/and gate .vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/modeltech64_10.5/examples/and gate .vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_bench
+-- Compiling architecture tb of and_bench
+
+} {} {}} C:/modeltech64_10.5/examples/andgate.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/modeltech64_10.5/examples/andgate.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture andlogic of and_gate
+
+} {} {}} {C:/modeltech64_10.5/examples/decorder bench .vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {C:/modeltech64_10.5/examples/decorder bench .vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+** Error (suppressible): C:/modeltech64_10.5/examples/decorder bench .vhd(2): (vcom-1491) Empty source files.
+
+} {} {}}

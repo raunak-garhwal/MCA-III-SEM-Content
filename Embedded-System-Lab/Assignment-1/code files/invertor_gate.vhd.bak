@@ -1,0 +1,15 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity invertergate is 
+port(
+a: in std_logic;
+q: out std_logic );
+end invertergate;
+
+architecture art1 of invertergate is
+begin
+process(a) is
+begin
+q <= not a;
+end process;
+end art1;

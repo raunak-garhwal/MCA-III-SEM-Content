@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity andGate_tb is
+end andGate_tb;
+
+architecture data_and of andGate_tb is
+component xnor_gate is
+port ( A,B :  in std_logic;
+	Y: out std_logic);
+end component;
+
+--inputs-
+signal a,b,c : std_ulogic;
+
+begin
+DUT : xnor_gate PORT MAP(a,b,c);
+
+stim_proc : process
+begin
+
+wait for 10 ns;
+A<='0';
+B<='0';
+wait for 10 ns;
+A<='1';
+B<='0';
+wait for 10 ns;
+A<='0';
+B<='1';
+wait for 10 ns;
+A<='1';
+B<='1';
+wait for 10 ns;
+end process;
+end data_and; 

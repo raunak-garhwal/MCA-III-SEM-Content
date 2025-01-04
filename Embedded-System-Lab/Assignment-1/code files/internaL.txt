@@ -1,0 +1,23 @@
+create database internal;
+CREATE TABLE dept ( deptno INT(10) NOT NULL , dname VARCHAR(15) NOT NULL , loaction VARCHAR(20) NOT NULL ) 
+
+CREATE TABLE EMP (empo INT NOT NULL , ename INT NOT NULL , job INT NOT NULL , mgr INT NOT NULL , hiredate INT NOT NULL , salary INT NOT NULL , mobile_number INT NOT NULL , deptno INT NOT NULL )
+
+ALTER TABLE emp ADD CONSTRAINT fk2 FOREIGN KEY (deptno) ;
+INSERT INTO dept (deptno, dname, loaction) VALUES (10, sale, udaipur)
+VALUES (11, loan, delhi)
+VALUES (13, accounts, mumbai);
+
+
+INSERT INTO emp (empo, ename, job, mgr, hiredate, salary, mobile_number, deptno) VALUES ('1', 'rohit', 'account', 'mumbai', '01/03/2003', '50000', '954945939', '13');
+
+
+
+
+
+
+
+Q1=UPDATE EMP 
+SET SALARY = SALARY * 1.15
+WHERE (CURRENT_DATE - HIREDATE) / 365 > 10;
+

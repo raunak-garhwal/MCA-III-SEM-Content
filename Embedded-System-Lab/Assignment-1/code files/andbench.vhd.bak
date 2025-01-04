@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity andbench is
+--empty
+end andbench;
+
+architecture tb of andbench is 
+
+component and_gate is
+port(
+A: in std_logic;
+B: in std_logic;
+Y: out std_logic);
+end component;
+
+signal a_in, b_in, q_out: std_ulogic;
+
+begin 
+DUT : and_gate port map(a_in, b_in , q_out);
+
+process
+begin
+a_in <= '0';
+b_in <= '0';
+wait for 100 ns;
+
+a_in <= '0';
+b_in <= '1';
+wait for 100 ns;
+
+a_in <= '1';
+b_in <= '0';
+wait for 100 ns;
+
+a_in <= '1';
+b_in <= '1';
+wait for 100 ns;
+end process;
+end tb;

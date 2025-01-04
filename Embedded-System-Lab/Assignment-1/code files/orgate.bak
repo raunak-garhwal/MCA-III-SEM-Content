@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity orgate is
+     Port ( x: in STD_LOGIC;
+            y: in STD_LOGIC;
+            z: out STD_LOGIC);
+end OR_gate;
+
+architecture data_and  of orgate is
+
+begin
+    z<= x OR y ; 
+
+end data_and;
+          
+
+
+
+          
