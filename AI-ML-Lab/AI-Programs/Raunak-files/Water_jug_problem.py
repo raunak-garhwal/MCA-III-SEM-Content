@@ -65,8 +65,8 @@ def water_jug_bfs(start_state, goal_state):
     return None
 
 
-jug1 = int(input("\nEnter the capacity of Jug1: "))
-jug2 = int(input("Enter the capacity of Jug2: "))
+jug1 = int(input("\nEnter the initial capacity of Jug1: "))
+jug2 = int(input("Enter the initial capacity of Jug2: "))
 goal = int(input("\nEnter the goal capacity for Jug1: "))
 
 start = (0, 0)
